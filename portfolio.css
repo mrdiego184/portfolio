@@ -1,0 +1,245 @@
+@keyframes aparecer{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+  
+body{
+    background-image: url(https://i.redd.it/guts-night-sky-higher-resolution-v0-29bj5xsd3swc1.jpg?width=2263&format=pjpg&auto=webp&s=7da4a2ea1ccc6eb170db6331debff95852ca022c);
+    background-repeat: no-repeat;
+    background-color: black;
+    animation: aparecer 1.5s;
+    font-family: "Comfortaa", sans-serif;
+    font-weight:bolder;
+    color: white;
+    overflow-x: hidden;
+}
+#diego{
+    width: 220px;
+    border-radius: 110px;
+}
+h1{
+    font-size:4rem;
+    
+}
+p{
+    font-size:1.8rem;
+    margin-left:4%;
+    
+}
+.quemsou{
+    margin-top: 10%;
+    display:flex;
+    flex-direction: row;
+    place-items: center;
+    background-color: black;
+    color:white;
+    border:3px solid;
+    border-color:white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    margin-left: 27%;
+}
+
+hr{
+    color: white;
+    width: 20%;
+    margin-top: -2%;    
+}
+.oquefaco{
+    margin-top: 12%;
+    background-color: black;
+    padding: 150px;
+    display:grid;
+    place-items:center;
+    
+
+}
+h2{
+    font-size: 2.6rem;
+    color: white;
+}
+.links{
+    display: flex;
+    
+}
+.competencias{
+    place-items: center;
+    margin-top: 10%;
+    
+    
+}
+.tituloha{
+    background-color: black;
+    color: white;
+    border: white solid;
+    border-radius: 20px;
+}
+.linha{
+    color: black;
+    border: none;
+    background: black;
+}
+.habilidades{
+    display: flex;
+    gap: 20%;
+    list-style: none;
+    margin-right: 10%;
+    padding: 50px;
+    margin-top: 5%;
+}
+.habilidades li{
+    border: white solid;
+    border-radius: 20px;
+    transition: 1s;
+}
+.habilidades li:hover{
+    background-color: white;
+    color: black;
+}
+.habilidades li h1{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+    color: black;
+}
+
+#linkedin{
+    width: 80px;
+}
+#github{
+    width: 100px;
+    margin-left: -6px;
+}
+#zap{
+    width: 80px;
+}
+#css{
+    width: 160px
+}
+#python{
+    width: 160px
+}
+#html{
+    width: 160px    
+}
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 60px;
+    margin-top: 10%;
+}
+
+.contato h2 {
+    font-size: 3rem;
+    text-align: center;
+    max-width: 400px;
+    border-right: 2px solid white;
+    padding-right: 30px;
+}
+
+.principais .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.links span{
+    border: white solid;
+    border-radius: 20px;
+    color: white;
+    padding: 30px;
+    font-size: 2.5rem;
+    transition: 0.5s ease-in;
+}
+.links li img {
+    width: 30px;
+    margin-right: 15px;
+    object-fit: contain;
+
+}
+.links li a{
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.zapp:hover{
+    background-color: rgb(9, 172, 30);
+    border-color: black;
+}
+.git:hover{
+    background-color:rgb(39, 63, 76);
+    border-color: black;
+}
+.linke:hover{
+    background-color: rgb(10, 102, 194);
+    border-color: black;
+}
+ul li a img{
+    transition: transform 0.3s ease-in-out;
+}
+ul li a img:hover{
+    transform: scale(1.2);
+}
+.danditha p{
+    color: white;
+}
+.danditha img{
+    transition: transform 0.3s ease-in-out;
+
+}
+.danditha img:hover{
+    transform: scale(1.2);
+    
+}
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.email{
+    font-size:2.5rem;
+}
+.curriculo{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.downloadcv{
+    border: solid white;
+    border-radius: 20px;
+    padding: 30px;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+    color:white;
+}
+.downloadcv:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    
+}
+#baixaki{
+    width: 30px;
+    transition: filter 0.5s ease;
+}
+.downloadcv:hover #baixaki{
+    filter: brightness(0%) invert(0);
+}
+
